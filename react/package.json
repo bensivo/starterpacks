@@ -1,0 +1,25 @@
+{
+  "name": "react-starterpack",
+  "version": "1.0.0",
+  "description": "This project serves as a basic template for any React application.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "http-server public"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
