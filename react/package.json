@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "start": "http-server public"
+    "start": "http-server public -o"
   },
-  "author": "",
+  "author": "Better Ben",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.3.3",
