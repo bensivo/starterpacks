@@ -7,7 +7,11 @@ module.exports = {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'public'),
     },
-
+    devServer: {
+        contentBase: path.join(__dirname, 'public'),
+        port: 8080,
+        open: true,
+    },
     resolve: {
         extensions: ['.js', '.jsx'],
     },
